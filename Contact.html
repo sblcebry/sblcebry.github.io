@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.header {
+	padding: 30px;
+	text-align: center;
+	background: #5F6F94;
+	color: #FEF5AC;
+	font-size: 20px;
+
+	border:5px solid #25316D;
+
+}
+
+.header a{
+      text-decoration:none;
+	color: #FEF5AC;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #25316D;
+}
+
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: #FEF5AC; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 15px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+.navbar a:hover {
+  background-color: #97D2EC;
+  color: #25316D;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #5F6F94;  
+  border:5px solid #25316D;  
+  color: #FEF5AC;    
+  text-align: left; /* Center the text */
+  padding: 8px 20px;
+}
+
+.footer a {
+  float: left
+  display: block;
+  color: #FEF5AC;    
+  text-align: center; /* Center the text */
+  padding: 15px 40px; /* Add some padding */
+  font-size: 15px;	
+  text-decoration:none;
+}
+
+.footer a:hover {
+  background-color: #97D2EC;
+  color: #25316D;
+}
+
+.column {
+  float: left;
+  width: 45%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+}
+
+</style>
+
+<div class="header">
+	<h1><a href="homepage.html">Sara Beth Leach Cebry</a></h>
+</div>
+
+<div class="navbar">
+	<a href="ResearchProjects.html">Research Projects</a>
+	<a href="Publications.html">Publications</a>
+	<a href="RelevantExperience.html">Relevant Experience</a>
+	<a href="Other.html">Other</a>
+	<a href="Contact.html" class="right">Contact</a>
+</div>
+
+<body style="background-color:white; color:#25316D; font-family:georgia; padding:5px 10px;">
+
+<div class="row">
+	<div class="column" style="padding:1px 10px;"> 
+		<h1 style="text-align:center;">Contact Information</h1>
+		<p> I welcome you to reach out to me with questions, comments, or to talk about cool science! <br><br>To contact me, please email sarabethleach@gmail.com. </p>
+	</div>
+	
+	<div class="column" style="padding:1px 10px;"> 
+		<h1 style="font-size:20px;"> </h1>
+		<center>
+		<img src="images/FS01.jpg";
+		alt="3-m apparatus at Cornell University with three DAQs in the foreground." ;
+		width="416" height="234"></center>
+		<!-- <p> And now an image! </p>-->
+	</div>
+</div>
+
+</body>
+
+<div class="footer">
+  <h3 style="padding:0px 10px"> Contact Information:</h3>
+  <a href="sarabethleach@gmail.com">Email</a>
+  <a href="https://courses.cit.cornell.edu/mclaskey/">McLaskey Group Website</a>
+  <a href="https://scholar.google.com/citations?user=g-526SsAAAAJ&hl=en">Google Scholar</a>
+  <a href="https://twitter.com/sblcebry">Twitter</a>
+  <p> </p>
+</div>
+
+</html>
